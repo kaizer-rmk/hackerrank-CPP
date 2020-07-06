@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 void update(int *a,int *b) {
     *a=*a+*b;   
