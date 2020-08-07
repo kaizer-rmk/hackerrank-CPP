@@ -8,16 +8,17 @@ using namespace std;
 
 template <class T>
 class AddElements{
-    T element1;
+    public:
+        T element1;
     public:
         AddElements(T args){
             element1=args;
         }
         T add(T element2){
-            return(element1+element2);
+            return element1+element2;
         }
         T concatenate(T element2){
-            return(element1+element2);
+            return element1+element2;
         }
 };
 
